@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 280px;
+  margin-top: 50px;
+  width: 90vw;
+
+  .about {
+
+    h1 {
+      font-size: 120px;
+      color: #ffff;
+      font-family: "David Libre", sans-serif;
+      font-weight: 500;
+    }
+
+h1:nth-of-type(1) {
+  background: linear-gradient(to right,#00e1ff  0%, #ffffff 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+    h1:nth-of-type(2) {
+      margin-top: -100px;
+
+    }
+
+
+    .about-info {
+      color: #959595;
+      font-size: 26px;
+      font-family: "JetBrains Mono", monospace;
+
+      width: 550px;
+      margin-top: -70px;
+    }
+
+
+  }
+
+  button {
+    margin-left: 120px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgba(128, 128, 128, 0.27);
+    border-radius: 6px;
+    background-clip: padding-box;
+font-size: 16px;
+    font-family: "JetBrains Mono", monospace;
+
+  text-decoration: none;
+  color: white;
+
+    &:hover {
+      cursor: pointer;
+      transition: all 0.4s ease;
+      border-color: #979696;
+
+    }
+  }
+
+  .contact {
+    width: 315px;
+    font-family: "JetBrains Mono", monospace;
+
+    img {
+      width: 32px;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 115px;
+      gap: 30px;
+
+      div {
+        display: flex;
+
+        &:hover {
+          span {
+            color: #f3f2f2;
+          }
+        }
+
+        a {
+          display: flex;
+          gap: 30px;
+          align-items: center;
+          text-decoration: none;
+        }
+      }
+
+    }
+
+
+    span {
+      display: block;
+      color: #959595;
+      width: 100px;
+
+    }
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .about {
+    margin-left: -100px;
+  }
+.icons {
+  margin-left: -50px;
+}
+}

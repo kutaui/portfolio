@@ -1,0 +1,43 @@
+.about {
+
+
+  h1 {
+    color: white;
+    font-family: 'Judson', serif;
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: 65px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    margin-left: 500px;
+    width: 850px;
+    color: #d0c7c7;
+    font-family: 'Judson', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1850px) {
+  .about {
+    h1 {
+      width: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .about {
+    h1 {
+      width: 255px;
+    }
+    p {
+      margin-left: 400px;
+      width: 700px;
+    }
+  }
+}

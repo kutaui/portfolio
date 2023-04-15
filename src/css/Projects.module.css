@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson&display=swap");
+.section-title {
+  color: white;
+  font-family: "Judson", serif;
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: 250px;
+  width: 333px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1850px) {
+  .section-title {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .section-title {
+    width: 350px;
+  }
+}
+
+/*# sourceMappingURL=Projects.module.css.map */

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap");
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 280px;
+  margin-top: 50px;
+  width: 90vw;
+}
+.hero .about h1 {
+  font-size: 120px;
+  color: white;
+  font-family: "David Libre", sans-serif;
+  font-weight: 500;
+}
+.hero .about h1:nth-of-type(1) {
+  background: linear-gradient(to right, #00e1ff 0%, #ffffff 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero .about h1:nth-of-type(2) {
+  margin-top: -100px;
+}
+.hero .about .about-info {
+  color: #959595;
+  font-size: 26px;
+  font-family: "JetBrains Mono", monospace;
+  width: 550px;
+  margin-top: -70px;
+}
+.hero button {
+  margin-left: 120px;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid rgba(128, 128, 128, 0.27);
+  border-radius: 6px;
+  background-clip: padding-box;
+  font-size: 16px;
+  font-family: "JetBrains Mono", monospace;
+  text-decoration: none;
+  color: white;
+}
+.hero button:hover {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border-color: #979696;
+}
+.hero .contact {
+  width: 315px;
+  font-family: "JetBrains Mono", monospace;
+}
+.hero .contact img {
+  width: 32px;
+}
+.hero .contact .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 115px;
+  gap: 30px;
+}
+.hero .contact .icons div {
+  display: flex;
+}
+.hero .contact .icons div:hover span {
+  color: #f3f2f2;
+}
+.hero .contact .icons div a {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-decoration: none;
+}
+.hero .contact span {
+  display: block;
+  color: #959595;
+  width: 100px;
+}
+
+@media only screen and (max-width: 1450px) {
+  .about {
+    margin-left: -100px;
+  }
+  .icons {
+    margin-left: -50px;
+  }
+}
+
+/*# sourceMappingURL=Hero.module.css.map */
