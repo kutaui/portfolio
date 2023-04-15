@@ -1,6 +1,6 @@
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("../assets/fonts/JetBrainsMono-Regular.ttf");
+  src: url("../../public/assets/fonts/JetBrainsMono-Regular.ttf");
 }
 nav {
   display: flex;

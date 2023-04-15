@@ -1,6 +1,6 @@
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("../assets/fonts/JetBrainsMono-Regular.ttf");
+  src: url("../../public/assets/fonts/JetBrainsMono-Regular.ttf");
 }
 
 nav {
@@ -55,14 +55,14 @@ font-family: "JetBrains Mono", monospace;
 }
 
 @media only screen and (max-width: 1450px) {
-nav {
-  .navigation {
-    justify-content: space-around;
-    width: 40vw;
-  }
+  nav {
+    .navigation {
+      justify-content: space-around;
+      width: 40vw;
+    }
 
-  .greenbox {
-    right: 250px;
+    .greenbox {
+      right: 250px;
+    }
   }
-}
 }
