@@ -1,5 +1,5 @@
 import styles from "../css/ProjectCard.module.css";
-import github from "../../public/assets/github-mark-white.png";
+import github from "../../public/github-mark-white.png";
 export const ProjectCard = (props) => {
   return (
     <>

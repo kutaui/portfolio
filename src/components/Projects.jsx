@@ -1,6 +1,6 @@
 import { ProjectCard } from "./ProjectCard.jsx";
 import styles from "../css/Projects.module.css";
-import countries from "../../public/assets/countries.jpg";
+import countries from "../../public/countries.jpg";
 export const Projects = () => {
   return (
     <>
