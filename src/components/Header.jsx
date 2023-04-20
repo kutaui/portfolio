@@ -16,7 +16,10 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a className={styles["nav-links"]} href="">
+              <a
+                className={styles["nav-links"]}
+                href="drive.google.com/file/d/1QH9enUHYnRRmsjE3ZuPkK_eU80bTOage"
+              >
                 Resume
               </a>
             </li>
