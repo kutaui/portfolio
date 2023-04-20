@@ -18,7 +18,7 @@ export const Header = () => {
             <li>
               <a
                 className={styles["nav-links"]}
-                href="drive.google.com/file/d/1QH9enUHYnRRmsjE3ZuPkK_eU80bTOage"
+                href="https://drive.google.com/file/d/1QH9enUHYnRRmsjE3ZuPkK_eU80bTOage/edit"
               >
                 Resume
               </a>
