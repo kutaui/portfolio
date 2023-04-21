@@ -16,11 +16,12 @@
       font-weight: 500;
     }
 
-h1:nth-of-type(1) {
-  background: linear-gradient(to right,#00e1ff  0%, #ffffff 45%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+    h1:nth-of-type(1) {
+      background: linear-gradient(to right, #00e1ff 0%, #ffffff 45%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
     h1:nth-of-type(2) {
       margin-top: -100px;
 
@@ -35,8 +36,6 @@ h1:nth-of-type(1) {
       width: 550px;
       margin-top: -70px;
     }
-
-
   }
 
   button {
@@ -47,11 +46,11 @@ h1:nth-of-type(1) {
     border: 2px solid rgba(128, 128, 128, 0.27);
     border-radius: 6px;
     background-clip: padding-box;
-font-size: 16px;
+    font-size: 16px;
     font-family: "JetBrains Mono", monospace;
 
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 
     &:hover {
       cursor: pointer;
@@ -109,7 +108,35 @@ font-size: 16px;
   .about {
     margin-left: -100px;
   }
-.icons {
-  margin-left: -50px;
+  .icons {
+    margin-left: -50px;
+  }
 }
+
+@media only screen and (max-width: 400px) {
+  .hero {
+    margin-left: 135px;
+
+    .about {
+      h1 {
+        font-size: 78px;
+      }
+      h1:nth-of-type(2) {
+        margin-top: -60px;
+      }
+      .about-info {
+        font-size: 18px;
+        width: 300px;
+        margin-top: -40px;
+      }
+    }
+
+    button {
+      margin-top: 20px;
+      margin-left: 70px;
+    }
+    .contact {
+      display: none;
+    }
+  }
 }

@@ -11,6 +11,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   p {
     margin-left: 500px;
     width: 850px;
@@ -35,9 +36,27 @@
     h1 {
       width: 255px;
     }
+
     p {
       margin-left: 400px;
       width: 700px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about {
+    h1 {
+      font-size: 80px;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p {
+      margin-left: 40px;
+      font-size: 15px;
+      width: 285px;
     }
   }
 }

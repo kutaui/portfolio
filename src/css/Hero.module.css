@@ -85,5 +85,28 @@
     margin-left: -50px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .hero {
+    margin-left: 135px;
+  }
+  .hero .about h1 {
+    font-size: 78px;
+  }
+  .hero .about h1:nth-of-type(2) {
+    margin-top: -60px;
+  }
+  .hero .about .about-info {
+    font-size: 18px;
+    width: 300px;
+    margin-top: -40px;
+  }
+  .hero button {
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+  .hero .contact {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=Hero.module.css.map */

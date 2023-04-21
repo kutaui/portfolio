@@ -78,4 +78,45 @@ hr {
   border-color: rgba(149, 149, 149, 0.75);
 }
 
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 50%;
+    margin-left: -60px;
+    flex-direction: column;
+  }
+  .container img {
+    width: 270px;
+    height: 200px;
+  }
+  .container .info h1 {
+    margin-left: 50px;
+    font-size: 45px;
+  }
+  .container .info .desc {
+    margin-left: 50px;
+    font-size: 13px;
+    width: 280px;
+  }
+  .container .info .stack {
+    margin-left: 50px;
+    font-size: 13px;
+  }
+  .container .buttons a:nth-of-type(1) {
+    margin-right: -20px;
+  }
+  .container .buttons a {
+    width: 120px;
+  }
+  .container .buttons a img {
+    margin-left: 15px;
+  }
+  .container .buttons a .liveicon {
+    margin-left: 25px;
+  }
+  hr {
+    width: 300px;
+    margin-top: 150px;
+  }
+}
+
 /*# sourceMappingURL=ProjectCard.module.css.map */
