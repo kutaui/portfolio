@@ -1,5 +1,6 @@
 import styles from "../css/ProjectCard.module.css";
-import github from "../../public/github-mark-white.png";
+import github from "/github-mark-white.png";
+import web from "/web.png";
 export const ProjectCard = (props) => {
   return (
     <>
@@ -11,14 +12,20 @@ export const ProjectCard = (props) => {
           <p className={styles.stack}>
             <span>Stack:</span> {props.stack}
           </p>
-          <a href={props.github}>
-            <button>
-              <span>
-                <img src={github} alt="" />
-                Github
-              </span>
-            </button>
-          </a>
+          <div className={styles.buttons}>
+            <a href={props.github}>
+              <img src={github} alt="github icon" />
+              <span> Github</span>
+            </a>
+            <a href={props.live}>
+              <img
+                className={styles.liveicon}
+                src={web}
+                alt="live website icon"
+              />
+              <span>Live</span>
+            </a>
+          </div>
         </div>
       </div>
       <hr />

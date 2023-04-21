@@ -11,9 +11,13 @@
   height: 300px;
   margin-left: 100px;
 }
-.container button {
-  margin-left: 120px;
-  margin-top: 10px;
+.container .buttons {
+  display: flex;
+}
+.container .buttons a {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 50px;
   width: 150px;
   height: 50px;
   background-color: transparent;
@@ -22,24 +26,22 @@
   background-clip: padding-box;
   font-size: 16px;
   font-family: "JetBrains Mono", monospace;
-}
-.container button span {
-  display: flex;
-  align-items: center;
-  margin-left: -80px;
   color: white;
 }
-.container button img {
+.container .buttons a img {
   width: 18px;
-  height: 18px;
+  height: 20px;
+  margin-left: 31px;
   margin-right: 10px;
-  margin-top: -2px;
+  margin-top: 12px;
 }
-.container button a {
-  text-decoration: none;
-  color: white;
+.container .buttons a span {
+  margin-top: 12px;
 }
-.container button:hover {
+.container .buttons a .liveicon {
+  margin-left: 38px;
+}
+.container .buttons a:hover {
   cursor: pointer;
   transition: all 0.4s ease;
   border-color: gray;

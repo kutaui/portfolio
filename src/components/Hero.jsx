@@ -1,7 +1,7 @@
 import styles from "../css/Hero.module.css";
-import twitter from "../../public/twitter.png";
-import email from "../../public/email.png";
-import linkedin from "../../public/linkedin.png";
+import twitter from "/twitter.png";
+import email from "/email.png";
+import linkedin from "/linkedin.png";
 import App from "../App.jsx";
 
 export const Hero = ({ aboutRef }) => {
