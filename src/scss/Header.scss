@@ -160,7 +160,9 @@ nav {
   margin-left: -10px;
   font-family: "JetBrains Mono", monospace;
 
-
+.menuToggle {
+  display: none;
+}
   .navigation {
     display: flex;
     justify-content: space-evenly;
