@@ -11,12 +11,12 @@ function App(props) {
   }
 
   return (
-    <>
+    <div className="wrapper">
       <Header />
       <Hero aboutRef={aboutRef} />
       <Projects />
       <About onRefUpdate={handleRefUpdate} />
-    </>
+    </div>
   );
 }
 

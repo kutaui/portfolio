@@ -3,7 +3,7 @@ import styles from "../css/Header.module.css";
 export const Header = () => {
   return (
     <>
-      <header>
+      <header className={styles.header}>
         <nav>
           <img src="/logo.png" alt="" />
           <ul className={styles.navigation}>
@@ -18,7 +18,7 @@ export const Header = () => {
             <li>
               <a
                 className={styles["nav-links"]}
-                href="https://drive.google.com/file/d/1QH9enUHYnRRmsjE3ZuPkK_eU80bTOage"
+                href="https://drive.google.com/file/d/1_H10fFKGs9R9kS8w3uFowCYd7o-zEsaw"
               >
                 Resume
               </a>

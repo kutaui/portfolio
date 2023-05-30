@@ -63,6 +63,7 @@
   .contact {
     width: 315px;
     font-family: "JetBrains Mono", monospace;
+    margin-right: 100px;
 
     img {
       width: 32px;
@@ -74,6 +75,7 @@
       justify-content: center;
       width: 115px;
       gap: 30px;
+
 
       div {
         display: flex;
@@ -104,12 +106,19 @@
   }
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (min-width: 1440px) and (max-width: 2000px) {
   .about {
     margin-left: -100px;
   }
-  .icons {
-    margin-left: -50px;
+  .contact {
+    position: fixed;
+    top: 150px;
+    right: -210px;
+
+    .icons {
+      position: sticky;
+      top: 0;
+    }
   }
 }
 
@@ -121,9 +130,11 @@
       h1 {
         font-size: 78px;
       }
+
       h1:nth-of-type(2) {
         margin-top: -60px;
       }
+
       .about-info {
         font-size: 18px;
         width: 300px;
@@ -135,6 +146,7 @@
       margin-top: 20px;
       margin-left: 70px;
     }
+
     .contact {
       display: none;
     }
