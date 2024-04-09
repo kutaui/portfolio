@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kutaybekleric.com/sitemap.xml
