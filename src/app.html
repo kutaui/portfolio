@@ -31,6 +31,19 @@
 		<meta name="twitter:creator" content="@kutaul" />
 		<meta name="twitter:description" content="Kutay's personal website and portfolio." />
 		<meta name="twitter:image" content="https://kutaybekleric.com/berserk.jpg" />
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZBN2X1KHB"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-YZBN2X1KHB');
+		</script>
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
